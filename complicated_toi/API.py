@@ -2,7 +2,7 @@ import logging
 import requests
 import json
 #change back to bearer
-from bearer_test import var_dict, token
+from bearer import var_dict, token
 import traceback
 #logging for the shell. Note, u can make a logging util file to do all of this
 logging.basicConfig(
