@@ -16,9 +16,9 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
     )
 #set the variables here for new cdir user
-name = None
-email = None
-password = None
+name = ""
+email = ""
+password = ""
 try:
     #will error out if the key value is not there OR the dict is not there 
     auth_type = var_dict['auth_type']
