@@ -4,9 +4,6 @@ import http.client
 import json
 import logging
 
-b =  bearer()
-token = b.token_return()
-var_dict = b.dict_ret()
 logging.basicConfig(level=logging.DEBUG)
 
 headers = {
